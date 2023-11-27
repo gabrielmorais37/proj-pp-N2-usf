@@ -12,12 +12,12 @@ public class Main {
             for (String scenario : scenarios) {
                 int[] arr = generateArray(size, scenario);
 
-//                long startTime = System.currentTimeMillis();
-//                SortingResult results = BubbleSort.bubbleSort(arr);
-//                long endTime = System.currentTimeMillis();
-//                long executionTime = endTime - startTime;
-//
-//                System.out.println(results.swaps + "," + results.comparisons + "," + size + "," + scenario + "," + executionTime + "," + "BubbleSort");
+            //    long startTime = System.currentTimeMillis();
+            //    SortingResult results = BubbleSort.bubbleSort(arr);
+            //    long endTime = System.currentTimeMillis();
+            //    long executionTime = endTime - startTime;
+
+            //    System.out.println(results.swaps + "," + results.comparisons + "," + size + "," + scenario + "," + executionTime + "," + "BubbleSort");
 
 //                long startTime2 = System.currentTimeMillis();
 //                SortingResult results2 = ImprovedBubbleSort.improvedBubbleSort(arr);
@@ -46,6 +46,14 @@ public class Main {
                 long executionTime5 = endTime5 - startTime5;
 
                 System.out.println(results5.swaps + "," + results5.comparisons + "," + size + "," + scenario + "," + executionTime5 + "," + "QuickSort");
+
+                // long startTime6 = System.currentTimeMillis();
+                // SortingResult results6 = CountingSort.countingSort(arr);
+                // long endTime6 = System.currentTimeMillis();
+                // long executionTime6 = endTime6 - startTime6;
+
+                // System.out.println(results6.swaps + "," + results6.comparisons + "," + size + "," + scenario + "," + executionTime6 + "," + "CountingSort");
+
             }
         }
     }

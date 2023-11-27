@@ -13,4 +13,11 @@ public class SortingResult {
         this.comparisons = comparisons;
         this.partition = partition;
     }
+
+    public static SortingResult SortingResult(int[] arr) {
+        return null;
+    }
+
+    public void incrementComparisons() {
+    }
 }
